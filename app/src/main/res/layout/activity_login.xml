@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@android:color/holo_green_light">
+
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/loginEmailET"
+            android:background="@android:color/white" android:hint="email" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="32dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/loginPasswordET"
+            android:background="@android:color/white" android:hint="password"
+            app:layout_constraintStart_toStartOf="@+id/loginEmailET"
+            app:layout_constraintEnd_toEndOf="@+id/loginEmailET" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/loginEmailET"/>
+    <Button
+            android:text="Login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginBtn" app:layout_constraintStart_toStartOf="@+id/loginPasswordET"
+            app:layout_constraintEnd_toEndOf="@+id/loginPasswordET" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/loginPasswordET"/>
+    <TextView
+            android:text="Back to Registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_back2registerTV"
+            app:layout_constraintStart_toStartOf="@+id/loginBtn" app:layout_constraintEnd_toEndOf="@+id/loginBtn"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/loginBtn"
+            android:textColor="@android:color/white" android:textStyle="italic"/>
+</android.support.constraint.ConstraintLayout>

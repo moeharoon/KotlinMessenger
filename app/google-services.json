@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "600023299211",
+    "firebase_url": "https://messengertest-8f319.firebaseio.com",
+    "project_id": "messengertest-8f319",
+    "storage_bucket": "messengertest-8f319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600023299211:android:29a09882d3d14b95",
+        "android_client_info": {
+          "package_name": "net.mharoon.kotlinmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600023299211-ct3pofdfb6utqd12mbin3jiue0mmj714.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.mharoon.kotlinmessenger",
+            "certificate_hash": "54ec2eababa4a32e30eb26539493cfa33350e8b1"
+          }
+        },
+        {
+          "client_id": "600023299211-fe08de41evaqfn37gcrbcjghlm0bpb0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB7WxRuPa5Y3FO4_aFoB-uQFVj7X2vWrE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600023299211-fe08de41evaqfn37gcrbcjghlm0bpb0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

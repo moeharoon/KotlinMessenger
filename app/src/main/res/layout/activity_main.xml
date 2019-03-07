@@ -5,15 +5,50 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
-
-    <TextView
-            android:layout_width="wrap_content"
+        tools:context=".MainActivity" android:background="@android:color/holo_green_light">
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/usernameET"
+            android:background="@android:color/white" android:layout_marginStart="32dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toTopOf="parent" android:hint="username"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:id="@+id/emailET"
+            android:background="@android:color/white"
+            android:inputType="textEmailAddress" android:hint="email"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/usernameET"
+            app:layout_constraintStart_toStartOf="@+id/usernameET" app:layout_constraintEnd_toEndOf="@+id/usernameET"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:id="@+id/passwordET"
+            android:background="@android:color/white"
+            android:inputType="textPassword" android:hint="Password"
+            app:layout_constraintStart_toStartOf="@+id/emailET" app:layout_constraintEnd_toEndOf="@+id/emailET"
+            app:layout_constraintHorizontal_bias="0.526" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/emailET"/>
+    <Button
+            android:text="Register"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-
+            android:id="@+id/registerBtn" app:layout_constraintEnd_toEndOf="@+id/passwordET"
+            app:layout_constraintStart_toStartOf="@+id/passwordET" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/passwordET"/>
+    <TextView
+            android:text="Already have an account?"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerTV"
+            android:textColor="@android:color/white" app:layout_constraintStart_toStartOf="@+id/registerBtn"
+            app:layout_constraintEnd_toEndOf="@+id/registerBtn" android:gravity="center" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/registerBtn" android:textStyle="italic"/>
 </android.support.constraint.ConstraintLayout>
