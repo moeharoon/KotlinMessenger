@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "600023299211-ct3pofdfb6utqd12mbin3jiue0mmj714.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "net.mharoon.kotlinmessenger",
-            "certificate_hash": "54ec2eababa4a32e30eb26539493cfa33350e8b1"
-          }
-        },
-        {
           "client_id": "600023299211-fe08de41evaqfn37gcrbcjghlm0bpb0s.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -37,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "600023299211-fe08de41evaqfn37gcrbcjghlm0bpb0s.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2
